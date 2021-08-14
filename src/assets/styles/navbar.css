@@ -36,6 +36,18 @@
   text-align: center;
   padding-top: 1rem;
 }
+
+@keyframes slide-one {
+  from {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .menu__option {
   width: 70%;
   padding: 0.5rem 1rem;
@@ -44,4 +56,13 @@
   border: 1px solid var(--white);
   background-color: var(--blue-nav);
   color: var(--white);
+}
+.menu__option--slide-one {
+  animation: slide-one 0.5s ease-out;
+}
+.menu__option--slide-two {
+  animation: slide-one 0.7s ease-out;
+}
+.menu__option--slide-three {
+  animation: slide-one 0.9s ease-out;
 }
