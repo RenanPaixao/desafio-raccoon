@@ -1,4 +1,18 @@
+@font-face {
+  font-family: 'Segoe UI Regular';
+  src: url(../fonts/segoeuib.ttf) format('ttf'),
+  url(..fonts/segoeuil.ttf) format('ttf'),
+  url(../fonts/segoeui.ttf) format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root{
+  --regular: 'Segoe UI Regular';
+  --bold: 'Segoe UI';
+  --ligth: 'Segoe UI Light';
   --white: #fff;
   --black: #000;
+  --blue-nav: #2571B7;
+  --blue-buttom-nav: #002050;
 }
