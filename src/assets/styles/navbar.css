@@ -1,30 +1,37 @@
 .nav {
   width: 100%;
-  height: 3rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
 
   background-color: var(--blue-nav);
+}
+.nav__logo {
+  display: none;
+  cursor: pointer;
 }
 .nav__hamburguer {
   height: 1.3rem;
 
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
+  cursor: pointer;
 }
 .nav__button {
-  height: 1.8rem;
+  height: 2.3rem;
+  font-weight: 600;
 
-  padding: 0 1rem;
+  padding: 0rem 1.2rem;
 
   background-color: var(--blue-buttom-nav);
   color: var(--white);
+
   font-family: var(--bold);
-  font-weight: 600;
+  text-align: center;
   white-space: nowrap;
+  cursor: pointer;
 }
 .menu {
   width: 100%;
@@ -37,7 +44,7 @@
   padding-top: 1rem;
 }
 
-@keyframes slide-one {
+@keyframes slide {
   from {
     transform: translateX(-100vw);
     opacity: 0;
@@ -56,13 +63,93 @@
   border: 1px solid var(--white);
   background-color: var(--blue-nav);
   color: var(--white);
+  cursor: pointer;
 }
 .menu__option--slide-one {
-  animation: slide-one 0.5s ease-out;
+  animation: slide 0.5s ease-out;
 }
 .menu__option--slide-two {
-  animation: slide-one 0.7s ease-out;
+  animation: slide 0.7s ease-out;
 }
 .menu__option--slide-three {
-  animation: slide-one 0.9s ease-out;
+  animation: slide 0.9s ease-out;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .nav {
+    padding: 0.5rem 1.5rem;
+  }
+  .nav__hamburguer {
+    height: 1.6rem;
+  }
+  .nav__button {
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+}
+@media (min-width: 720px) {
+  .nav {
+    padding: 1rem 1.5rem 1rem 3rem;
+  }
+  .nav__hamburguer {
+    display: none;
+  }
+
+  .nav__logo {
+    display: block;
+    height: 1.4em;
+
+    align-self: center;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-desktop {
+    display: flex;
+    margin-left: auto;
+    padding-right: 1rem;
+
+    color: var(--white);
+  }
+  .menu-desktop__option {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+
+    white-space: nowrap;
+    cursor: pointer;
+  }
+}
+@media (min-width: 960px) {
+  .nav {
+    padding: 1.5rem 2rem 1.5rem 6rem;
+    font-size: 1rem;
+  }
+  .nav__logo {
+    height: 1.7rem;
+  }
+  .nav__button {
+    height: 2.2rem;
+  }
+  .menu-desktop__option {
+    padding: 0 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .nav {
+    padding: 1.5rem 6rem 1.5rem 8.5rem;
+  }
+  .menu-desktop {
+    padding-right: 4rem;
+  }
+  .menu-desktop__option {
+    padding: 0 2rem;
+  }
+  .nav__button {
+    height: 2.3rem;
+  }
 }
