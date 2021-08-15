@@ -190,8 +190,14 @@
   }
 }
 @media (min-width: 1200px) {
+  .values__title {
+    font-size: 2.7rem;
+  }
   .values__card-wrapper p {
     font-size: 1rem;
+  }
+  .values__card-wrapper h2 {
+    font-size: 1.3rem;
   }
   .values__button.values__button--one,
   .values__button.values__button--two,
