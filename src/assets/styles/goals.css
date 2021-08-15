@@ -23,7 +23,7 @@
 .goals__title {
   font-size: 1.5rem;
 
-  color: var(--goal-title);
+  color: var(--title);
   white-space: nowrap;
 }
 .goals__subtitle {

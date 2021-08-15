@@ -18,7 +18,9 @@
   --blue-button-top-banner: #00a4ef;
   --gray-article: #747474;
   --orange-featured: #fd673d;
-  --goal-title: #2b75b9;
+
+  --title: #2b75b9;
+
   --goal-one: #0072c6;
   --goal-two: #2c5898;
   --goal-three: #207245;
@@ -29,4 +31,8 @@
   --goal-eight: #0073c6;
   --goal-nine: #0093be;
   --goal-ten: #5558af;
+
+  --values-one: #7fba00;
+  --values-two: #00a4ef;
+  --values-three: #ffb900;
 }
