@@ -127,6 +127,7 @@
 
     white-space: nowrap;
     cursor: pointer;
+    color: var(--white);
   }
 }
 @media (min-width: 960px) {
