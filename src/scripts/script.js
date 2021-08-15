@@ -9,3 +9,5 @@ function toggleMenu() {
 hamburguer.addEventListener('click', () => {
   toggleMenu();
 });
+
+toggleMenu();
