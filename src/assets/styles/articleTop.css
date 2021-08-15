@@ -12,8 +12,6 @@
 .article-top p {
   width: 85%;
   font-size: 1.1rem;
-
-  color: var(--gray-article);
 }
 .article-top__first {
   margin: 5rem 0 2rem;
