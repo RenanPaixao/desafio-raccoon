@@ -1,0 +1,88 @@
+.mission {
+  padding: 0 1rem;
+}
+.mission__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.mission__card {
+  padding: 2rem 0;
+
+  border: 4px solid var(--border);
+  border-bottom: none;
+}
+.mission__card--border-show {
+  border-bottom: 4px solid var(--border);
+}
+
+.mission__card p,
+.mission__card h3 {
+  text-align: center;
+}
+.mission__card h3 {
+  margin-bottom: 1rem;
+
+  color: var(--mission-card-title);
+}
+.mission__card p {
+  font-size: 0.8rem;
+
+  padding: 0 1rem;
+}
+
+@media (min-width: 500px) {
+  .mission__card p {
+    font-size: 0.9rem;
+
+    padding: 0 2rem;
+  }
+}
+@media (min-width: 720px) {
+  .mission {
+    padding: 0 2rem;
+  }
+  .mission__title {
+    margin: 4rem 0 5rem;
+  }
+  .mission__card h3 {
+    font-size: 1.4rem;
+  }
+  .mission__card p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  .mission__container {
+    display: flex;
+  }
+  .mission__card {
+    padding: 3rem 0 4rem;
+
+    border-bottom: 4px solid var(--border);
+    border-right: none;
+  }
+  .mission__card--border-show {
+    border-right: 4px solid var(--border);
+  }
+  .mission__card h3 {
+    font-size: 1.3rem;
+
+    margin-bottom: 2rem;
+  }
+  .mission__card p {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  .mission__container {
+    padding: 0 6rem;
+  }
+  .mission__card {
+    padding-bottom: 2rem;
+  }
+  .mission__card p {
+    font-size: 1rem;
+
+    padding: 0 1rem;
+  }
+}
