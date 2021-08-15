@@ -2,10 +2,6 @@
   padding: 4rem 1rem;
 }
 .values__title {
-  font-size: 1.5rem;
-
-  color: var(--title);
-  white-space: nowrap;
   text-align: center;
 }
 .values__card-wrapper {
@@ -114,7 +110,6 @@
     padding: 0 4rem;
   }
   .values__title {
-    font-size: 2rem;
     margin-bottom: 2.2rem;
   }
   .values__card-wrapper h2 {
@@ -190,9 +185,6 @@
   }
 }
 @media (min-width: 1200px) {
-  .values__title {
-    font-size: 2.7rem;
-  }
   .values__card-wrapper p {
     font-size: 1rem;
   }
