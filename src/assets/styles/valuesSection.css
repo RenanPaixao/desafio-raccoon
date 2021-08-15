@@ -7,7 +7,7 @@
 .values__card-wrapper {
   padding: 2rem 0;
 
-  border-bottom: 4px solid var(--values-border);
+  border-bottom: 4px solid var(--border);
 }
 .values__card-wrapper h2 {
   font-size: 1rem;
@@ -158,7 +158,7 @@
     display: flex;
     margin: 1rem auto 0;
     content: '';
-    background-color: var(--values-border);
+    background-color: var(--border);
     width: 33%;
     height: 5px;
   }

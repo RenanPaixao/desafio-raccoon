@@ -20,6 +20,7 @@
   --orange-featured: #fd673d;
 
   --title: #2b75b9;
+  --border: #dedede;
 
   --goal-one: #0072c6;
   --goal-two: #2c5898;
@@ -35,5 +36,4 @@
   --values-one: #7fba00;
   --values-two: #00a4ef;
   --values-three: #ffb900;
-  --values-border: #dedede;
 }
