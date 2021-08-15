@@ -1,6 +1,7 @@
 @import url(./assets/styles/variables.css);
 @import url(./assets/styles/navbar.css);
 @import url(./assets/styles/bannerTop.css);
+@import url(./assets/styles/articleTop.css);
 
 /*Reset*/
 * {
@@ -15,7 +16,8 @@
 
 html {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  overflow-x: hidden;
   font-family: 'Segoe UI Regular', sans-serif;
 }
 body {
