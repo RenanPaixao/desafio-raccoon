@@ -19,10 +19,13 @@
 }
 .values__card-wrapper .values__button {
   height: 2.5rem;
+  font-family: var(--bold);
+  font-weight: 600;
 
   padding: 0 0.5rem;
 
   background-color: unset;
+  cursor: pointer;
 }
 .values__content {
   display: flex;
@@ -116,6 +119,7 @@
   }
   .values__card-wrapper h2 {
     font-size: 1.2rem;
+    white-space: nowrap;
   }
   .values__card-wrapper p {
     font-size: 1rem;
@@ -144,6 +148,27 @@
   }
   .values__content h2 {
     display: initial;
+
+    margin: 1rem 0;
+  }
+  .values__image-wrapper {
+    margin: 0;
+    padding: 2.5rem;
+  }
+  .values__image-wrapper img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .values__card-title--after::after {
+    display: flex;
+    margin: 1rem auto 0;
+    content: '';
+    background-color: var(--values-border);
+    width: 33%;
+    height: 5px;
+  }
+  .values__card-wrapper {
+    border: none;
   }
   .values__card-wrapper {
     display: flex;
@@ -151,6 +176,26 @@
     align-items: center;
   }
   .values__card-wrapper p {
-    padding: 0 1rem;
+    text-align: center;
+
+    padding: 0 2rem;
+  }
+  .values__button.values__button--one,
+  .values__button.values__button--two,
+  .values__button.values__button--three {
+    font-size: 1rem;
+
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .values__card-wrapper p {
+    font-size: 1rem;
+  }
+  .values__button.values__button--one,
+  .values__button.values__button--two,
+  .values__button.values__button--three {
+    padding: 0 0.3rem;
   }
 }
