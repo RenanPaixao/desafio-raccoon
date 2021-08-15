@@ -137,6 +137,35 @@
   }
 }
 @media (min-width: 960px) {
+  .banner-top__title {
+    margin-top: 1rem;
+
+    font-size: 2.7rem;
+  }
+  .banner-top__subtitle {
+    font-size: 1.5rem;
+
+    margin-top: 1rem;
+  }
+  .banner-top__button {
+    height: 3.3rem;
+    font-size: 1.4rem;
+
+    padding: 0 2rem;
+    margin: 4rem 0 2rem;
+  }
+  .banner-top__footer {
+    width: 90%;
+
+    padding: 0;
+    margin: 3rem 0 2.5rem;
+  }
 }
 @media (min-width: 1200px) {
+  .banner-top__blur {
+    padding-left: 7rem;
+  }
+  .banner-top__title {
+    font-size: 3rem;
+  }
 }
