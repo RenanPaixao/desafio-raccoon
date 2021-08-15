@@ -37,3 +37,19 @@
   --values-three: #ffb900;
   --values-border: #dedede;
 }
+.title {
+  font-size: 1.5rem;
+
+  color: var(--title);
+  white-space: nowrap;
+}
+@media (min-width: 720px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 720px) {
+  .title {
+    font-size: 2.7rem;
+  }
+}
