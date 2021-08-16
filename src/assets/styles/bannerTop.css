@@ -1,14 +1,14 @@
 .banner-top {
-  height: 18rem;
+  height: 30rem;
 
   background-image: url('../images/banners/top-banner.png');
-  background-position: 45% 60%;
+  background-position: 39% 40%;
 }
 .banner-top__blur {
   height: 100%;
   width: 100%;
 
-  padding-top: 4rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,7 @@
   align-items: center;
 }
 .banner-top__title {
-  font-size: 1.7rem;
+  font-size: 2.1rem;
   width: min-content;
 
   margin: 0 auto;
@@ -32,19 +32,19 @@
 .banner-top__subtitle {
   width: 25ch;
 
-  margin: 0.5rem 0 0.3rem;
+  margin: 1.2rem 0 0.3rem;
 
   text-align: center;
   overflow: hidden;
   color: var(--white);
 }
 .banner-top__button {
-  height: 2.3rem;
+  height: 2.4rem;
   width: min-content;
   font-weight: 600;
 
-  padding: 0rem 1.2rem;
-  margin: 1rem 0 0;
+  padding: 0 1.4rem;
+  margin: 2rem 0;
   position: relative;
   left: 50%;
   transform: translate(-50%);
