@@ -28,6 +28,10 @@
 .form__label--init {
   color: var(--form-blue);
 }
+.form__input--init {
+  border: 2px solid var(--form-blue);
+}
+
 .form input:focus {
   border: 2px solid var(--form-blue);
 }

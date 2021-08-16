@@ -8,6 +8,7 @@ function toggleMenu() {
     ? (menu.style.display = 'none')
     : (menu.style.display = 'flex');
 }
+
 hamburguer.addEventListener('click', () => {
   toggleMenu();
 });
@@ -15,6 +16,10 @@ hamburguer.addEventListener('click', () => {
 inputs.forEach((element, index) => {
   element.addEventListener('focusin', () => {
     labels[index].style.color = 'var(--form-blue)';
+    if (inputs[0].classList.contains('form__input--init')) {
+      inputs[0].classList.remove('form__input--init');
+      labels[0].classList.remove('form__label--init');
+    }
   });
 });
 
