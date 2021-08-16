@@ -34,6 +34,7 @@
 .form__submit {
   background-color: var(--form-submit);
   color: var(--white);
+  cursor: pointer;
 }
 .form .form__submit {
   margin: 1rem 0 0rem;
