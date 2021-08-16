@@ -66,11 +66,14 @@
   align-items: flex-end;
   justify-content: center;
 }
-.banner-top__arrow {
-  height: 2rem;
+
+.banner-top__footer a {
   margin-right: auto;
 
   display: none;
+}
+.banner-top__arrow {
+  height: 2rem;
 }
 .banner-top__logo {
   height: 1.5rem;
@@ -131,8 +134,10 @@
 
     margin-bottom: 0.6rem;
   }
+  .banner-top__footer a {
+    display: initial;
+  }
   .banner-top__arrow {
-    display: block;
     height: 3rem;
   }
 }
